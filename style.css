@@ -1,10 +1,25 @@
+
 body {
-    
+    margin-left: 20px;
+    color: #3B4569;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+nav h3 {
+    font-family:'Segoe UI';
+    font-size: 40px;
+    margin-top: 20px;
 }
 
 nav ul {
@@ -12,7 +27,1547 @@ nav ul {
     display: inline-flex;
 }
 
+.First {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-left-width: 1.5px;
+    border-right: none;
+}
+
+.Second {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-right-width: 1.5px;
+    border-left: none;
+}
+
 nav ul li button {
-    background-color: white;
+    background-color: #ecf0f1;
+    border: 3px solid #3B4569;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: larger;
+    font-family: Helvetica;
+    border-top-width: 1.5px;
+    border-bottom-width: 1.5px;
+    transition: background-color 0.3s esae;
+    color: #3B4569;
+    white-space: nowrap;
+}
+
+.button:hover {
+    background-color: #3B4569;
+    color: white;
+}
+
+.line1 { 
+    border: 1px solid #3B4569;
+    margin-left: -20px;
+    margin-right: -20px;
+    height: 5px;
+    border: 1px solid #3B4569;
+    border-radius: 10px;
+    background-color: #3B4569;
+}
+
+header {
+    margin-top: 80px;
+    text-align: center;
+    font-size:25px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+header p {
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.Home {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Home img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.containerform {
+    width: 400px;
+    background-color: #ecf0f1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-top: 5px;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.CIMG {
+    height: 500px;
+    width: 1000px;
+    border-radius: 5px;
+}
+
+.MySlide {
+    display: none;
+}
+
+.komentar {
+    margin-left: 30px;
+    margin-right: px;
+    width: 900px;
+    font-style: italic;
+    font-size: large;
+    margin-top: 40px;
+    color: gray;
+}
+
+.Pengomentar {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.Pengomentar .nama {
+    color: black;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.Pengomentar .ket {
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.profil {
     border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-size: cover;
+}
+
+form {
+    margin-top: 70px;
+}
+
+.containerform h3 {
+    font-size: xx-large;
+}
+
+.containerform p {
+    font-size: larger;
+}
+
+form p {
+    margin-bottom: 15px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium';
+}
+form input {
+    margin-top: -10px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: larger;
+    border: 2px solid #43628B;
+    border-radius: 10px;
+}
+
+form select {
+    width: 100%;
+    height: 50px;
+    margin-top: -10px;
+    border: 2px solid #43628B;
+    border-radius: 10px;
+}
+
+.peringatan {
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    font-family: serif;
+    font-style: italic;
+}
+form button {
+    width: 100%;
+    height: 50px;
+    background-color: #43628B;
+    border: 1px transparent;
+    margin-bottom: 20px;
+    font-size: larger;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+form button:hover {
+    background-color: #9ab1ce;
+    border: 1px solid #3B4569;
+    color: #3B4569;
+}
+
+.input-error {
+    border: 1px solid red;
+}
+
+.Pilih {
+    margin-bottom: 15px;
+    font-size: large;
+    color: gray;
+}
+
+.line2 {
+    margin-top: 30px;
+    width: 100px;
+    height: 5px;
+    border: 1px solid #ecf0f1;
+    border-radius: 10px;
+    background-color: #ecf0f1;
+}
+
+.num {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.number {
+    min-width: 50px;
+    height: 50px;
+    border: 1.5px solid #B0C4DE;
+    background-color: #B0C4DE;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.number p {
+    font-family: Verdana;
+    color: white;
+    font-size: 30px;
+    margin-top: 6px;
+}
+
+.judul2 {
+    font-family:'Franklin Gothic Medium';
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+.number-1 {
+    width: 700px;
+    margin-top: -5px;
+    line-height: 2;
+    font-size: large;
+    font-family: Verdana;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.ourpackages {
+    height: 300px;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+.ourpackages h2 {
+    padding-top: 80px;
+    color: white;
+    color-scheme: 2px;
+    font-size: 100px;
+    font-family:'Gill Sans MT';
+}
+
+.baris-1 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.baris-2 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 80px;
+}
+
+.circle {
+    border: 2px solid #B0C4DE;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+}
+
+.kolom-1 h3 {
+    font-size: 25px;
+    font-family: 'Lucida Sans';
+    
+}
+.kolom-1 {
+    display: flex;
+    gap: 10px;
+}
+
+.kolom-p {
+    width: 350px;
+    margin-left: 92px;
+    margin-top: -10px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Tahoma, sans-serif;
+}
+
+.line3 {
+    margin-top: 100px;
+    height: 5px;
+    border: 1px solid #3B4569;
+    border-radius: 10px;
+    background-color: #3B4569;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.End-h1 {
+    margin-top: 70px;
+    display: flex;
+    justify-content:center ;
+    font-family:'Franklin Gothic Medium';
+    font-size: 50px;
+}
+
+.End-p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: larger;
+    font-family: Tahoma;
+    line-height: 2;
+}
+
+.End-button {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+
+.End-button button {
+    width: 500px;
+    height: 80px;
+    background-color: #3B4569;
+    font-size: x-large;
+    color: white;
+    border: 1px solid #3B4569;
+    
+}
+
+.button2:hover {
+    background-color: #B0C4DE;
+    color: #3B4569;
+}
+
+.last {
+    margin-top: 100px;
+}
+
+.finish-1 {
+    margin-top: 50px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.finish {
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+    header {
+        margin-top: 80px;
+        text-align: center;
+        font-size:25px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .Home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .containerform {
+        margin-top: 50px;
+        width: 400px;
+        background-color: #ecf0f1;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-top: 5px;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        border-radius: 5px;
+    }
+    
+    .CIMG {
+        height: 500px;
+        width: 1000px;
+        border-radius: 5px;
+    }
+    
+    .MySlide {
+        display: none;
+    }
+    
+    .komentar {
+        margin-left: 30px;
+        margin-right: px;
+        width: 900px;
+        font-style: italic;
+        font-size: large;
+        margin-top: 40px;
+        color: gray;
+    }
+    
+    .Pengomentar {
+        margin-top: 40px;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .Pengomentar .nama {
+        color: black;
+        font-style: normal;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    .Pengomentar .ket {
+        margin-top: -10px;
+        font-size: 15px;
+    }
+    
+    .profil {
+        border: 1px solid black;
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        background-size: cover;
+    }
+    
+    form {
+        margin-top: 70px;
+    }
+    
+    .containerform h3 {
+        font-size: xx-large;
+    }
+    
+    .containerform p {
+        font-size: larger;
+    }
+    
+    form p {
+        margin-bottom: 15px;
+        font-size: large;
+        font-family: 'Franklin Gothic Medium';
+    }
+    form input {
+        margin-top: -10px;
+        width: 100%;
+        height: 50px;
+        margin-bottom: 20px;
+        font-size: larger;
+        border: 2px solid #43628B;
+        border-radius: 10px;
+    }
+    
+    form select {
+        width: 100%;
+        height: 50px;
+        margin-top: -10px;
+        border: 2px solid #43628B;
+        border-radius: 10px;
+    }
+    
+    .peringatan {
+        color: red;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: serif;
+        font-style: italic;
+    }
+    form button {
+        width: 100%;
+        height: 50px;
+        background-color: #43628B;
+        border: 1px transparent;
+        margin-bottom: 20px;
+        font-size: larger;
+        color: white;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+    
+    form button:hover {
+        background-color: #9ab1ce;
+        border: 1px solid #3B4569;
+        color: #3B4569;
+    }
+    
+    .Pilih {
+        margin-bottom: 15px;
+        font-size: large;
+        color: gray;
+    }
+    
+    .line2 {
+        margin-top: 30px;
+        width: 100px;
+        height: 5px;
+        border: 1px solid #ecf0f1;
+        border-radius: 10px;
+        background-color: #ecf0f1;
+    }
+    
+    .num {
+        margin-left: 100px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    
+    .number {
+        min-width: 50px;
+        height: 50px;
+        border: 1.5px solid #B0C4DE;
+        background-color: #B0C4DE;
+        border-radius: 100%;
+        text-align: center;
+    }
+    
+    .number p {
+        font-family: Verdana;
+        color: white;
+        font-size: 30px;
+        margin-top: 6px;
+    }
+    
+    .judul2 {
+        font-family:'Franklin Gothic Medium';
+        margin-top: 50px;
+        margin-left: 100px;
+        font-size: 18px;
+    }
+    
+    .number-1 {
+        width: 700px;
+        margin-top: -5px;
+        line-height: 2;
+        font-size: large;
+        font-family: Verdana;
+        background-color: aliceblue;
+        border-radius: 20px;
+        padding: 5px;
+    }
+    
+    .ourpackages {
+        height: 300px;
+        background-color: #ecf0f1;
+        text-align: center;
+    }
+    
+    .ourpackages h2 {
+        padding-top: 80px;
+        color: white;
+        color-scheme: 2px;
+        font-size: 100px;
+        font-family:'Gill Sans MT';
+    }
+    
+    .baris-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 100px;
+    }
+    
+    .baris-2 {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    
+    .circle {
+        border: 2px solid #B0C4DE;
+        border-radius: 100%;
+        width: 80px;
+        height: 80px;
+        background-size: cover;
+    }
+    
+    .kolom-1 h3 {
+        font-size: 25px;
+        font-family: 'Lucida Sans';
+        
+    }
+    .kolom-1 {
+        display: flex;
+        gap: 20px;
+        margin-left: 100px;
+    }
+    
+    .kolom-p {
+        width: 800px;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: -10px;
+        font-size: 20px;
+        line-height: 1.5;
+        font-family: Tahoma, sans-serif;
+    }
+    
+    .End-h1 {
+        margin-top: 70px;
+        margin-right: 100px;
+        margin-left: 100px;
+        display: flex;
+        justify-content:center ;
+        font-family:'Franklin Gothic Medium';
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .End-p {
+        margin-top: 20px;
+        margin-right: 100px;
+        margin-left: 100px;
+        text-align: center;
+        font-size: larger;
+        font-family: Tahoma;
+        line-height: 2;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    body {
+        margin-left: 20px;
+        color: #3B4569;
+        width: 100%;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    
+    nav h3 {
+        font-family:'Segoe UI';
+        font-size: 40px;
+        margin-top: 20px;
+    }
+   
+    nav ul li button {
+        background-color: #ecf0f1;
+        border: 3px solid #3B4569;
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: larger;
+        font-family: Helvetica;
+        border-top-width: 1.5px;
+        border-bottom-width: 1.5px;
+        transition: background-color 0.3s esae;
+        color: #3B4569;
+        margin-top: -150px;
+        margin-bottom: 10px;
+    }
+
+    header {
+        margin-top: 80px;
+        text-align: center;
+        font-size:25px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    .Home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    
+    .CIMG {
+        height: 500px;
+        width: 750px;
+        border-radius: 5px;
+        margin: auto;
+        margin-top: -20px;
+    }
+    
+    .komentar {
+        margin-left: 70px;
+        margin-right: 70px;
+        width: 700px;
+        font-style: italic;
+        font-size: large;
+        margin-top: 40px;
+        color: gray;
+    }
+    
+    .line2 {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        width: 100px;
+        height: 5px;
+        border: 1px solid #ecf0f1;
+        border-radius: 10px;
+        background-color: #ecf0f1;
+    }
+    
+    .num {
+        margin-left: 100px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 30px;
+        margin-left: 60px;
+        margin-bottom: 50px; 
+    }
+    
+    .number {
+        width: 50px;
+        height: 50px;
+        border: 1.5px solid #B0C4DE;
+        background-color: #B0C4DE;
+        border-radius: 100%;
+        text-align: center;
+   }
+    
+    .number p {
+        font-family: Verdana;
+        color: white;
+        font-size: 30px;
+        margin-top: 6px;
+        width: auto;
+    }
+    
+    .judul2 {
+        font-family:'Franklin Gothic Medium';
+        font-size: 18px;
+        width: 720px;
+        margin: auto;
+    }
+    
+    .number-1 {
+        width: 600px;
+        margin-top: -5px;
+        line-height: 2;
+        font-size: large;
+        font-family: Verdana;
+        background-color: aliceblue;
+        border-radius: 20px;
+        padding: 5px;
+    }
+   
+    .baris-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+    
+    .baris-2 {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    
+    .circle {
+        border: 2px solid #B0C4DE;
+        border-radius: 100%;
+        width: 80px;
+        height: 80px;
+        background-size: cover;
+    }
+    
+    .kolom-1 h3 {
+        font-size: 25px;
+        font-family: 'Lucida Sans';
+        
+    }
+    .kolom-1 {
+        display: flex;
+        gap: 20px;
+        margin-left: 0px;
+    }
+    
+    .kolom-p {
+        width: 700px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: -10px;
+        font-size: 20px;
+        line-height: 1.5;
+        font-family: Tahoma, sans-serif;
+    }
+    
+    .End-h1 {
+        margin-top: 70px;
+        margin-right: 100px;
+        margin-left: 100px;
+        display: flex;
+        justify-content:center ;
+        font-family:'Franklin Gothic Medium';
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .End-p {
+        margin-top: 20px;
+        margin-right: 100px;
+        margin-left: 100px;
+        text-align: center;
+        font-size: small;
+        font-family: Tahoma;
+        line-height: 2;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+
+    body {
+        margin-left: 0px;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    
+    nav h3 {
+        font-family:'Segoe UI';
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    nav ul li button {
+        background-color: #ecf0f1;
+        border: 3px solid #3B4569;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: smaller;
+        margin-top: -60px;
+        font-family: Helvetica;
+        border-top-width: 1.5px;
+        border-bottom-width: 1.5px;
+        transition: background-color 0.3s esae;
+        color: #3B4569;
+        margin-bottom: 10px;
+    }
+    
+    header {
+        margin-top: 40px;
+        text-align: center;
+        font-size:15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    header p {
+        font-size: 15px;
+        margin-bottom: 80px;
+    }
+    
+    .Home {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: -45px;
+    }
+    
+    .Home img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    
+    .containerform {
+        width: 340px;
+        background-color: #ecf0f1;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        margin-left: 20px;
+        margin: auto;
+    }
+    
+    .CIMG {
+        height: 300px;
+        margin: auto;
+        width: 400px;
+        border-radius: 5px;
+    }
+    
+    .komentar {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 400px;
+        font-style: italic;
+        font-size: small;
+        line-height: 1.5;
+        margin-top: 25px;
+        color: gray;
+    }
+    
+    .Pengomentar {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .Pengomentar .nama {
+        color: black;
+        font-style: normal;
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    
+    .Pengomentar .ket {
+        margin-top: -20px;
+        font-size: 15px;
+    }
+    
+    .profil {
+        border: 1px solid black;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        background-size: cover;
+        margin-top: 0px;
+    }
+    
+    form {
+        margin-top: 40px;
+    }
+    
+    .containerform h3 {
+        font-size: 25px;
+    }
+    
+    .containerform p {
+        font-size: 18px;
+        width: 300px;
+    }
+    
+    form p {
+        margin-bottom: 15px;
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium';
+    }
+    form input {
+        margin-top: -10px;
+        width: 320px;
+        height: 50px;
+        margin-bottom: 20px;
+        font-size: larger;
+        border: 2px solid #43628B;
+        border-radius: 10px;
+    }
+    
+    form select {
+        width: 328px;
+        height: 50px;
+        margin-top: -10px;
+        border: 2px solid #43628B;
+        border-radius: 10px;
+    }
+    
+    .peringatan {
+        color: red;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: serif;
+        font-style: italic;
+    }
+    form button {
+        width: 329px;
+        height: 50px;
+        background-color: #43628B;
+        border: 1px transparent;
+        margin-bottom: 20px;
+        font-size: larger;
+        color: white;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+
+    .Pilih {
+        margin-bottom: 15px;
+        font-size: large;
+        color: gray;
+    }
+    
+    .line2 {
+        margin-top: 30px;
+        width: 100px;
+        height: 5px;
+        border: 1px solid #ecf0f1;
+        border-radius: 10px;
+        background-color: #ecf0f1;
+    }
+    
+    .num {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-right: auto;
+    }
+    
+    .number {
+        min-width: 50px;
+        height: 50px;
+        border: 1.5px solid #B0C4DE;
+        background-color: #B0C4DE;
+        border-radius: 100%;
+        text-align: center;
+    }
+    
+    .number p {
+        font-family: Verdana;
+        color: white;
+        font-size: 30px;
+        margin-top: 6px;
+    }
+    
+    .judul2 {
+        font-family:'Franklin Gothic Medium';
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    
+    .number-1 {
+        width: 700px;
+        margin-top: -5px;
+        line-height: 2;
+        font-size: 15px;
+        font-family: Verdana;
+        background-color: aliceblue;
+        border-radius: 20px;
+        padding: 5px;
+        margin-right: 10px;
+    }
+    
+    .ourpackages {
+        height: 200px;
+        background-color: #ecf0f1;
+        text-align: center;
+    }
+    
+    .ourpackages h2 {
+        padding-top: 65px;
+        color: white;
+        color-scheme: 2px;
+        font-size: 50px;
+        font-family:'Gill Sans MT';
+    }
+    .baris-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    
+    .baris-2 {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    
+    .circle {
+        border: 2px solid #B0C4DE;
+        border-radius: 100%;
+        width: 60px;
+        height: 60px;
+        background-size: cover;
+    }
+    
+    .kolom-1 h3 {
+        font-size: 20px;
+        font-family: 'Lucida Sans';
+        
+    }
+    .kolom-1 {
+        display: flex;
+        gap: 20px;
+        margin-left: 0px;
+    }
+    
+    .kolom-p {
+        width: 300px;
+        margin-left: 80px;
+        margin-right: 20pxpx;
+        margin-top: -10px;
+        font-size: 15px;
+        line-height: 1.5;
+        font-family: Tahoma, sans-serif;
+    }
+
+    .line3 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .End-button {
+        width: 300px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .End-h1 {
+        margin-top: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: flex;
+        justify-content:center ;
+        font-family:'Franklin Gothic Medium';
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .End-p {
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        text-align: center;
+        font-size: small;
+        font-family: Tahoma;
+        line-height: 2;
+    }
+    
+}
+
+/* Tinggal yg ini sama validasi data */
+
+@media screen and (max-width: 320px) {
+
+    body {
+        margin-left: 0px;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    
+    nav h3 {
+        font-family:'Segoe UI';
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    nav ul li button {
+        background-color: #ecf0f1;
+        border: 3px solid #3B4569;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: smaller;
+        margin-top: -60px;
+        font-family: Helvetica;
+        border-top-width: 1.5px;
+        border-bottom-width: 1.5px;
+        transition: background-color 0.3s esae;
+        color: #3B4569;
+        margin-bottom: 10px;
+    }
+    
+    header {
+        margin-top: 40px;
+        text-align: center;
+        font-size:15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    header p {
+        font-size: 15px;
+        margin-bottom: 80px;
+    }
+    
+    .Home {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: -45px;
+    }
+    
+    .Home img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    
+    .containerform {
+        width: 280px;
+        background-color: #ecf0f1;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        margin: auto;
+    }
+    
+    .CIMG {
+        height: 200px;
+        margin: auto;
+        width: 300px;
+        border-radius: 5px;
+    }
+    
+    .komentar {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 300px;
+        font-style: italic;
+        font-size: 10px;
+        line-height: 1.5;
+        margin-top: 10px;
+        color: gray;
+    }
+    
+    .Pengomentar {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .Pengomentar .nama {
+        color: black;
+        font-style: normal;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    
+    .Pengomentar .ket {
+        margin-top: -20px;
+        font-size: 15px;
+    }
+    
+    .profil {
+        border: 1px solid black;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        background-size: cover;
+        margin-top: 0px;
+    }
+    
+    form {
+        margin-top: 30px;
+    }
+    
+    .containerform h3 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    
+    .containerform p {
+        font-size: 15px;
+        width: 250px;
+    }
+    
+    form p {
+        margin-bottom: 15px;
+        font-size: 10px;
+        font-family: 'Franklin Gothic Medium';
+    }
+    form input {
+        margin-top: -10px;
+        width: 270px;
+        height: 40px;
+        margin-bottom: 20px;
+        font-size: larger;
+        border: 2px solid #43628B;
+        border-radius: 10px;
+    }
+    
+    form select {
+        width: 280px;
+        height: 40px;
+        margin-top: -10px;
+        border: 2px solid #43628B;
+        border-radius: 10px;
+    }
+    
+    .peringatan {
+        color: red;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: serif;
+        font-style: italic;
+    }
+    form button {
+        width: 280px;
+        height: 40px;
+        background-color: #43628B;
+        border: 1px transparent;
+        margin-bottom: 0px;
+        font-size: larger;
+        color: white;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+
+    .Pilih {
+        margin-bottom: 15px;
+        font-size: large;
+        color: gray;
+    }
+    
+    .line2 {
+        margin-top: 30px;
+        width: 100px;
+        height: 5px;
+        border: 1px solid #ecf0f1;
+        border-radius: 10px;
+        background-color: #ecf0f1;
+    }
+    
+    .num {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-right: auto;
+    }
+    
+    .number {
+        min-width: 30px;
+        height: 30px;
+        border: 1.5px solid #B0C4DE;
+        background-color: #B0C4DE;
+        border-radius: 100%;
+        text-align: center;
+    }
+    
+    .number p {
+        font-family: Verdana;
+        color: white;
+        font-size: 15px;
+        margin-top: 6px;
+    }
+    
+    .judul2 {
+        font-family:'Franklin Gothic Medium';
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 13px;
+    }
+    
+    .number-1 {
+        width: 700px;
+        margin-top: -5px;
+        line-height: 2;
+        font-size: 10px;
+        font-family: Verdana;
+        background-color: aliceblue;
+        border-radius: 20px;
+        padding: 5px;
+        margin-right: 10px;
+    }
+    
+    .ourpackages {
+        height: 180px;
+        background-color: #ecf0f1;
+        text-align: center;
+    }
+    
+    .ourpackages h2 {
+        padding-top: 69px;
+        color: white;
+        color-scheme: 2px;
+        font-size: 40px;
+        font-family:'Gill Sans MT';
+    }
+    .baris-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    
+    .baris-2 {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    
+    .circle {
+        border: 2px solid #B0C4DE;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+    }
+    
+    .kolom-1 h3 {
+        font-size: 15px;
+        font-family: 'Lucida Sans';
+        
+    }
+    .kolom-1 {
+        display: flex;
+        gap: 20px;
+        margin-left: 0px;
+    }
+    
+    .kolom-p {
+        width: 230px;
+        margin-left: 65px;
+        margin-right: 10px;
+        margin-top: -10px;
+        font-size: 10px;
+        line-height: 1.5;
+        font-family: Tahoma, sans-serif;
+    }
+
+    .line3 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .End-button {
+        width: 200px;
+        margin: auto;
+    }
+
+    .End-button button {
+        width: 500px;
+        height: 50px;
+        background-color: #3B4569;
+        font-size: large;
+        color: white;
+        border: 1px solid #3B4569;
+        
+    }
+    
+    .End-h1 {
+        margin-top: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: flex;
+        justify-content:center ;
+        font-family:'Franklin Gothic Medium';
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .End-p {
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 8px;
+        font-family: Tahoma;
+        line-height: 2;
+    }
+    
+    .finish-1 {
+        margin-top: 50px;
+        font-size: small;
+        text-align: center;
+        opacity: 0.5;
+    }
+    
+    .finish {
+        opacity: 0.5;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: small;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }

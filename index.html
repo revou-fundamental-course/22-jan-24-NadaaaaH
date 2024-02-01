@@ -8,15 +8,191 @@
 </head>
 <body>
     
-    <nav>
-        <h3>moqups</h3>
+    <nav class="nav">
+        <h3 class="logo">HaifaGroceries</h3>
 
-        <ul>
-            <li><a href=""><button>Home</button></a></li>
-            <li><a href=""><button>Our Packages</button></a></li>
-            <li><a href=""><button>Call Us</button></a></li>
+        <ul class="ul">
+            <li class="li"><a href="#Home"><button class="First button">Home</button></a></li>
+            <li class="li"><a href="#ourpackages"><button class="threee button">Our Packages</button></a></li>
+            <li class="li"><a href="#callus"><button class="Second button">Call Us</button></a></li>
         </ul>
 
     </nav>
+
+    <hr class="line1">
+
+    <header class="header" id="Home">
+        <h1 class="header-h1">Top Rated E-Groceries Shop in Indonesian</h1>
+
+        <p>Everyday with best ingredients with HaifaGroceries</p>
+    </header>
+
+    <div class="Home">
+        <div>
+        <div class="CIMG">
+            <div class="MySlide"><img src="img/saus.jpeg" alt="" class="img"></div>
+            <div class="MySlide"><img src="img/bumbu.jpeg" alt="" class="img"></div>
+            <div class="MySlide"><img src="img/fish.jpeg" alt="" class="img"></div>
+            <div class="MySlide"><img src="img/meat.jpeg" alt="" class="img"></div>
+            <div class="MySlide"><img src="img/susu.jpeg" alt="" class="img"></div>
+        </div>
+
+        <div class="komentar">
+            <p class="komentar-p">"Belanja di sini beneran memuaskan! setiap hari saya selalu membeli bahan masakan dari HaifaGroceries, diantar cepat dan dikemas dengan sangat baik! produknya datang dengan aman dan berkualitas!"</p>
+
+            <div class="Pengomentar">
+                <div class="profil" style="background-image: url(img/icon.jpeg);"> </div>
+                
+                 <div>
+                 <p class="nama"><b>Gigi Isabela</b></p>
+                 <p class="ket">Ibu rumah tangga, 30</p>
+                </div>
+            </div>
+
+           
+        </div>
+
+        <hr class="line2">
+
+        <div>
+            <div class="judul2">
+                <h2>How Can Fresh Groceries Become the Top best E-Groceries in Indonesia?</h2>
+            </div>
+                  
+            <div class="num">
+            <div class="number"><p>1</p></div>
+            <div class="number-1">The products sold are safe, original, new and high quality. Fresh and clean food products, well sealed and always providing the latest products.</div>
+            </div>
+    
+            <div class="num">
+                <div class="number"><p>2</p></div>
+                <div class="number-1">Fast and safe delivery with affordable shipping costs.e, packaged neatly and through good hygiene procedures.</div>
+                </div>
+    
+            <div class="num">
+                <div class="number"><p>3</p></div>
+                <div class="number-1">Always give the buyer the opportunity to return the goods if there are defects or damage, and if the goods do not match what was ordered.</div>
+            </div>
+        </div>
+        
+
+       </div>
+        
+        <div class="CS">
+            <div class="containerform">
+            <h3>Contact Us</h3>
+            <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+        
+            
+            <form class="form" name="callUs" onsubmit="return validateForm()">
+                <p class="form-p">Your Name:</p>
+                <input type="text" placeholder="First and last Name" class="input" id="inputName">
+                <p class="peringatan" id="peringatan-1"></p>
+            
+                <p class="form-p">Email Address:</p>
+                <input type="text" placeholder="example@email.com" class="input" id="inputEmail">
+                <p class="peringatan" id="peringatan-2"></p>
+
+                <p class="form-p">What are you interested in?</p>
+                <select class="Pilih" name="Select Option" id="selectOption">
+                    <option disabled selected value="">Select option</option>
+                    <option value="one">Our Product</option>
+                    <option value="two">Our Service</option>
+                    <option value="three">Our Promo</option>
+                    <option value="four">Our Membercard</option>
+                </select>
+                <p class="peringatan" id="peringatan-3"></p>
+
+                <button type="submit" class="submit">SEND</button>
+            </form>
+        </div>
+        </div>
+
+    </div>
+
+    
+
+    <div class="ourpackages" id="ourpackages">
+        <h2>Our Packages</h2>
+    </div>
+
+    <div class="baris-1">
+
+        <div class="kolom">
+         <div class="kolom-1">
+         <div class="circle" style="background-image:url(img/iconvegetable.png) ;"> </div>
+            <h3>Fresh Vegetable</h3>
+         </div>
+            <p class="kolom-p">Sayuran segar langsung dari sumber pertanian terbaik</p>
+        </div>
+
+        <div class="kolom">
+            <div class="kolom-1">
+            <div class="circle" style="background-image:url(img/iconfruit.png);"> </div>
+               <h3>Fresh Fruit</h3>
+            </div>
+               <p class="kolom-p">Buah dengan kualitas terbaik dari local atau import dan harga menarik</p>
+        </div>
+
+        <div class="kolom">
+            <div class="kolom-1" >
+            <div class="circle" style="background-image:url(img/iconvfast.png);"> </div>
+               <h3>Instant Delivery</h3>
+            </div>
+               <p class="kolom-p">Dikirim instan oleh kurir yang telah training dengan SOP untuk menjaga kondisi belanjan Anda</p>
+        </div>
+
+    </div>
+
+    
+    <hr class="line2">
+
+    <div class="baris-2">
+
+        <div class="kolom">
+         <div class="kolom-1">
+         <div class="circle" style="background-image:url(img/iconinggredients.png);"> </div>
+            <h3>Kitchen Ingredients</h3>
+         </div>
+            <p class="kolom-p">Bumubu dapur lengkap untuk keperluan memasak kamu</p>
+        </div>
+
+        <div class="kolom">
+            <div class="kolom-1">
+            <div class="circle" style="background-image:url(img/iconset.png);"> </div>
+               <h3>Kitchen Set</h3>
+            </div>
+               <p class="kolom-p">Segala jenis alat masa untuk membantu kamu memasak</p>
+        </div>
+
+        <div class="kolom">
+            <div class="kolom-1">
+            <div class="circle" style="background-image:url(img/iconbunding.png);"> </div>
+               <h3>Bunding Set</h3>
+            </div>
+               <p class="kolom-p">Bingung masak apa? sudah tersedia paket untuk kamu masak di dapur</p>
+        </div>
+
+    </div>
+
+    <hr class="line3" id="callus">
+
+  <div class="End">
+    <h1 class="End-h1">Entrust your shopping to us, we will be happy to serve you!</h1>
+
+    <p class="End-p">Apa yang Anda butuhkan hari ini? tertarik untuk menghubungi kami? <br> Ayo segera laksanakan dan penuhi kebutuhan rumah Anda dengan praktis bersama kami
+    </p>
+
+
+    <div  class="End-button"><button class="button2">CALL TO ACTIONS</button></div>
+
+   </div>
+
+    <hr class="line3 last">
+
+    <div class="finish-1">HaifaGroceries</div>
+    <div class="finish"><div>&copy;2024       </div><div>Nada H Nurfadhilah</div></div>
+
+    <script src="index.js"></script>
 </body>
 </html>
